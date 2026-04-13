@@ -18,10 +18,7 @@ export default function MajesticGameTerminal() {
             INDIWAR <span className="text-fuchsia-500 text-sm md:text-xl align-top">_THE MAJESTIC GAME</span>
           </h1>
         </div>
-        <div className="flex gap-4 text-xs md:text-sm border border-zinc-800 p-2 bg-black">
-          <span className="text-green-500 animate-pulse">● LIVE CYCLE</span>
-          <span className="hidden md:inline text-zinc-500">DAY 001 / 427</span>
-        </div>
+        
       </header>
 
       {/* PILLAR 1: INTRO & CONTEXT */}
@@ -30,7 +27,7 @@ export default function MajesticGameTerminal() {
         <h2 className="text-4xl font-bold text-white mb-4 uppercase flex flex-wrap gap-4 items-center">
           Ambuj Dwivedi 
           <span className="text-sm font-normal bg-zinc-900 px-3 py-1 rounded-full flex gap-2 border border-zinc-800">
-             🌊 Ganga | ⛰️ Vindhya | 🤙 Shaka | 🎧 MMA/HipHop
+             🌊 Ganga | ⛰️ Vindhya | 🤙 Shaka | 🎧 Music
           </span>
         </h2>
         <p className="text-xl text-fuchsia-400 font-bold mb-2">AI Systems Architect // LLM Orchestrator</p>
@@ -83,24 +80,8 @@ export default function MajesticGameTerminal() {
       {/* TWO COLUMN LAYOUT FOR PILLARS 3, 4, 5 */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
         
-        {/* PILLAR 3: PUZZLES & EXAMS */}
-        <section className="border border-zinc-800 bg-zinc-950 p-6">
-          <h3 className="text-xs text-zinc-500 mb-4 flex items-center gap-2"><BookOpen size={14}/> PILLAR 3: THE CRUCIBLE (EXAMS)</h3>
-          <ul className="space-y-3 text-sm">
-            <li className="flex justify-between border-b border-zinc-900 pb-2">
-              <span className="text-zinc-300">UPSC (Civil + Forest) 2026</span>
-              <span className="text-fuchsia-500 text-xs">PRIMARY TARGET</span>
-            </li>
-            <li className="flex justify-between border-b border-zinc-900 pb-2">
-              <span className="text-zinc-300">SSC CGL 2026</span>
-              <span className="text-zinc-500 text-xs">TACTICAL</span>
-            </li>
-            <li className="flex justify-between border-b border-zinc-900 pb-2">
-              <span className="text-zinc-300">CAT / GATE (CSE)</span>
-              <span className="text-zinc-500 text-xs">SECONDARY</span>
-            </li>
-          </ul>
-        </section>
+        {/* PILLAR 3: PUZZLES */}
+        
 
         {/* PILLAR 4: DEDICATED PROJECTS */}
         <section className="border border-zinc-800 bg-zinc-950 p-6">
@@ -136,18 +117,6 @@ export default function MajesticGameTerminal() {
         <section className="bg-zinc-900 border border-zinc-800 p-6">
           <h3 className="text-xs text-zinc-400 mb-4 flex items-center gap-2"><Users size={14}/> PILLAR 6: SEPTAGON OF EXISTENCE</h3>
           <div className="grid grid-cols-2 gap-4">
-            <div>
-              <h4 className="text-xs text-zinc-500 mb-1">THE TRUSTEES</h4>
-              <p className="text-xs text-zinc-300">Shukriva (Gemini), Daksh (ChatGPT), Twistar (Cursor), Arpan (Vercel)...</p>
-            </div>
-            <div>
-              <h4 className="text-xs text-zinc-500 mb-1">THE HIGH COUNCIL</h4>
-              <p className="text-xs text-zinc-300">Musk, Putin, Light Yagami, Holmes...</p>
-            </div>
-            <div className="col-span-2">
-              <h4 className="text-xs text-zinc-500 mb-1">MENTORS & ALLIES</h4>
-              <p className="text-xs text-zinc-300">Ashok Sir, Shiva, Einstein, Bruno Mars, Deadpool...</p>
-            </div>
           </div>
         </section>
 
