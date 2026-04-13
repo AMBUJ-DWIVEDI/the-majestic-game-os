@@ -1,4 +1,3 @@
-// MAJESTIC GAME ACTIVE
 'use client';
 
 import React, { useState } from 'react';
